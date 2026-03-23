@@ -140,6 +140,18 @@ contract ChargingSystem {
         address minNextUser = minTimeUser.next_user;
         uint32 idCharger = UserToCharger[minUser].chargerId;
 
+
+
+
+
+
+
+
+
+
+
+        
+
         delete UserToCharger[minUser];
         delete IdToAddr[idCharger];
 
