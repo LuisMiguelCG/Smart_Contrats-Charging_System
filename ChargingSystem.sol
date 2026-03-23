@@ -12,7 +12,6 @@ contract ChargingSystem {
 
     struct Charger {
 
-
         address user;
         uint32 chargerId;
         uint256 startTime;
@@ -20,7 +19,6 @@ contract ChargingSystem {
     }
 
     struct MinTimeUser {
-
 
         address addr;
         address next_user;
